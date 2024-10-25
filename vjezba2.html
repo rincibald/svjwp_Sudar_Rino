@@ -85,3 +85,45 @@
 <p><a href="https://www.google.com/maps/@45.1592761,17.7699099,3a,75y,182.44h,74.05t/data=!3m7!1e1!3m5!1s_vWFldPKzKqXIbEPWIGyxw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D15.945559662917859%26panoid%3D_vWFldPKzKqXIbEPWIGyxw%26yaw%3D182.43793780689177!7i16384!8i8192?coh=205410&entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">My place</a></p>
 
 <hr>
+<!-- HTML forme -->
+ <form action="" method="get">
+    <label for="name">Ime: </label>
+    <input type="text" name="name" id="name" size="10" maxlength="5"><br>
+    <label for="">Prezime: </label>
+    <input type="text" name="surname" id="surname" pattern="[A-Za-z]{3}"><br>
+    <label>Izaberi najbolji programski jezik:</label> <br>
+    <input type="radio" name="jezik" id="html" value="html">
+    <label for="html">HTML</label><br>
+    <input type="radio" name="jezik" id="c" value="c" checked>
+    <label for="c">C#</label><br>
+    <input type="radio" name="jezik" id="js" value="js">
+    <label for="js">JS</label><br>
+    <label>Danas od predmeta imamo:</label><br>
+    <input type="checkbox" name="hj" id="hj" value="hj">
+    <label for="hj">Hrvatski jezik</label><br>
+    <input type="checkbox" name="mat" id="mat" value="mat">
+    <label for="mat">Matematika</label><br>
+    <input type="checkbox" name="fiz" id="fiz" value="fiz">
+    <label for="fiz">Fizika</label><br>
+    <input type="checkbox" name="tzk" id="tzk" value="tzk">
+    <label for="tzk">Tjelesni</label><br>
+    <label>Izaberi boju: </label>
+    <input type="color"><br>
+    <label>Izaberi datum: </label>
+    <input type="date"><br>
+    <label for="pass">Unesi password: </label>
+    <input type="password" name="pass"  id="pass" required><br>
+    <label for="email">Unesi email adresu: </label>
+    <input type="email" name="email" id="email"  required><br>
+    <label>Unesi raspon: </label>
+    <input type="range" min="1" max="10">
+    <label for="kidovi">Izaberi svog kida:</label>
+    <select id="kidovi">
+    <option value="loky">Loky</option>
+    <option value="perica">Perica</option>
+    <option value="bornoleum">Bornoleum</option>
+    <option value="sunjac">Šunjač</option>
+    </select>
+    <input type="submit" value="Pošalji">
+    <input type="reset" value="Poništi">
+ </form>
