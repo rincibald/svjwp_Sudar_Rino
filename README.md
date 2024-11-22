@@ -11,8 +11,8 @@
 <body>
     <h1>Moja osobna web stranica iz SJWP</h1>
     <h3>Zadaće: </h3>
-    <li> <a href="./zadace/zadaca1.html">Zadaća 1</a></li>
-    <li> <a href="./zadace/zadaca2.html">Zadaća 2</a></li>
+    <li> <a href="zadace/zadaca1.html">Zadaća 1</a></li>
+    <li> <a href="zadace/zadaca2.html">Zadaća 2</a></li>
     <li>Zadaća 3</li>
     <li>Zadaća 4</li>
     <li>Zadaća 5</li>
