@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranzicije</title>
+</head>
+<style>
+    .a {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transition: width 1s ease-in-out ;
+        position: absolute;
+    }
+    .b {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        transition: width 1s ease-in-out 1s;
+        top: 150px;
+        position: absolute;
+    }
+    .c {
+        position: relative;
+    }
+    .c:hover .a {
+        width: 300px;
+    }
+    .c:hover .b {
+        width: 300px;
+    }
+    
+</style>
+<body>
+    <div class="c">
+        <div class="a"></div>
+        <div class="b"></div>
+    </div>
+    
+</body>
+</html>
