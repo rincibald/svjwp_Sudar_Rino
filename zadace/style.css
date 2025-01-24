@@ -1,0 +1,40 @@
+h1{
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+h2{
+    font-family: "Roboto", serif;
+    color: #4CAF50;
+}
+body{
+    background-color: #ECEFF1;
+}
+.a{
+    font-size: 20px;
+    color: #78909C;
+}
+.b{
+    font-size: 18px;
+    color: #546E7A;
+}
+.c{
+    font-size: 16px;
+    color: #37474F;
+}
+.prvi{
+    list-style-type:circle;
+}
+.drugi{
+    list-style-type:armenian;
+}
+.treci{
+    list-style-type:inherit;
+}
+.highlight{
+    color: #FFC107;
+}
+
+#glnaslov{
+    font-size: 4rem;
+}
