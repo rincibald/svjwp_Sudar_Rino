@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .x {
+        width: 200px;
+        height: 200px;
+        background-color: gray;
+        margin: 200px;
+        position: relative;
+    }
+    .x:hover .a {
+        transform-origin: top left;
+        transform: rotate(90deg);
+        transition: rotate 1s ease-in-out 1s;
+    }
+    .x:hover .b {
+        transform-origin: top right;
+        transform: rotate(90deg);
+        transition: rotate 1s ease-in-out 1s;
+    }
+    .x:hover .c {
+        
+    }
+    .x:hover .d {
+        
+    }
+    .a {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+    .b {
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        left: 100px;
+        position: absolute;
+        
+    }
+    .c {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        top: 100px;
+        position: absolute;
+    }
+    .d {
+        background-color: green;
+        width: 100px;
+        height: 100px;
+        top: 100px;
+        left: 100px;
+        position: absolute;
+    }
+    .h {
+        z-index: 1;
+        left: 75px;
+        top: 75px;
+        color: black;
+    }
+</style>
+<body>
+    <div class="x">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <p class="h">Hi!</p>
+    </div>
+</body>
+</html>
