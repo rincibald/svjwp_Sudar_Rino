@@ -8,7 +8,7 @@
         body {
             margin: 0px;
         }
-        .a {
+        .header {
             background-color: darkblue;
             width: 100vw;
             height: 10vh;
@@ -39,13 +39,112 @@
             top: 77px;
             
         }
+        h2 {
+            text-align: center;
+            margin-top: 200px;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .login {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            position: absolute;
+            margin-left: 250px;
+            position: absolute;
+        }
+        
+        .a1 {
+            font-size: 14px;
+            margin-top: 15px;
+            margin-left: 630px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            right: 200px;
+        }
+        .a2 {
+            font-size: 14px;
+            margin-top: 15px;
+            margin-left: 630px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            right: 155px;
+        }
+        .b1 {
+            width: 300px;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            border: 1px solid gray;
+            position: relative;
+            right: 175px;
+        }
+        .b2 {
+            width: 300px;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            border: 1px solid gray;
+            position: relative;
+            right: 132px;
+        }
+        .dugme {
+            width: 300px;
+            padding: 10px;
+            background-color: blue;
+            position: relative;
+            left: 555px;
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .dugme:hover {
+            background-color: darkblue;
+        }
+        .slika {
+            width: 100px;
+            position: absolute;
+            top: 750px;
+            left: 900px;
+        }
+        .footer {
+            position: absolute;
+            bottom: 5px;
+            flex-direction: row;
+            width: 1500px;
+        }
+        .f1,.f2,.f3,.f4,.f5,.f6,.f7 {
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5px;
+        }
     </style>
 </head>
 <body>
-    <div class="a">
+    <div class="header">
         <div class="b"></div>
         <p class="c"> e-Dnevnik</p>
         <div class="d"></div>
+    </div>
+    <h2>Dobro došli</h2>
+    <div class="login">
+        <div class="blok1">
+            <label for="username" class="a1">Korisničko ime:</label>
+        <input type="text" id="username" name="username" class="b1">
+        </div>
+        <div class="blok2">
+            <label for="password" class="a2">Lozinka:</label>
+        <input type="password" id="password" name="password" class="b2">
+        </div>
+        <div class="dugme">PRIJAVA</div>
+    </div>
+    <img src="assets/carnet.png" alt="carnet" class="slika">
+    <div class="footer">
+        <div class="f1">Kontakt +385 1 6661 500</div>
+        <div class="f2">Online kontakt</div>
+        <div class="f3">Važni dokumenti</div>
+        <div class="f4">Prava i obaveze korisnika</div>
+        <div class="f5">Izjava o pristupačnosti</div>
+        <div class="f6">Obavijest o privatnosti</div>
+        <div class="f7">© CARNET 2025.</div>
     </div>
 </body>
 </html>
