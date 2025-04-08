@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="4.zadaca">
+    <meta name="author" content="Rino Sudar">
+    <title>Zadaća 4</title>
+    <style>
+        .back {
+            width: 300px;
+            height: 300px;
+            background-color: #2D3464;
+            position: relative;
+        }
+        .dole {
+            background-color: #DAB897;
+            width: 80px;
+            height: 30px;
+            bottom: 0px;
+            position: absolute;
+            left: 110px;
+        }
+        .krug1 {
+            width: 60px;
+            height: 50px;
+            background-color: #DAB897;
+            border-top-left-radius: 100px;
+            top: 230px;
+            left: 85px;
+            position: absolute;
+            transform: skew(-10deg);
+
+        }
+        .krug2 {
+            width: 60px;
+            height: 50px;
+            background-color: #DAB897;
+            border-top-right-radius: 100px;
+            top: 230px;
+            position: absolute;
+            right: 85px;
+            transform: skew(10deg);
+        }
+        .backy {
+            background-color: #2D3464;
+            position: absolute;
+            height: 50px;
+            width: 25px;
+            bottom: 25px;
+            left: 140px;
+        }
+        .gore {
+            background-color: #DAB897;
+            position: absolute;
+            height: 45px;
+            width: 25px;
+            left: 140px;
+            bottom: 90px;
+        }
+        .Vizitka{
+            width: 500px;
+            height: 300px;
+            border: 4px solid black;
+        }
+        .Svojstva{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .Profilna{
+            width: 150px;
+            height: 150px;
+            margin: 10px 0px 10px 10px;
+            border-radius: 70%;
+        }
+        .Podatci{
+            flex: 1;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .Opis{
+            font-size: 15px;
+        }
+        .Email{
+            font-size: 15px;
+            margin: 15px 0px 0px 5px;
+        }
+        .Pozivni{
+            font-size: 15px;
+            margin: 5px 0px 20px 3px;
+        }
+        .DrustveneMreze{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <h2>Zadatak 1</h2>
+    <img src="../zadace/slika.png" alt="Primjer zadatka" width="300px" height="300px">
+    <div class="back">
+        <div class="dole"></div>
+        <div class="krug1"></div>
+        <div class="krug2"></div>
+        <div class="backy"></div>
+        <div class="gore"></div>
+    </div>
+    <h2>Zadatak 2</h2>
+    <div class="Vizitka">
+        <div class="Svojstva">
+            <img class="Profilna" src="../zadace/johnpork.png" alt="profilna">
+            <div class="Podatci">
+                <h1 style="font-size: 38px;">Rino Sudar</h1>
+                <p class="Opis">Pohađam Tehničku Školu Slavonski Brod i idem u treći razred. Iz sela sam koje se zove Radovanje i treniram nogomet u NK Orioliku.</p>
+                <p class="Email">Email: rsudar.178@gmail.com</p>
+                <p class="Pozivni">Telefon: +385 91 600 2811</p>
+                <div class="DrustveneMreze">
+                    <img style="width: 45px; height: 45px;" src="../zadace/ig.png" alt="Instagram">
+                    <img style="width: 45px; height: 45px;" src="../zadace/snep.jpg" alt="Snapchat">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
