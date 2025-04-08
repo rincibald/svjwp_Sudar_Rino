@@ -14,7 +14,7 @@
     <li> <a href="../svjwp_Sudar_Rino/zadace/zadaca1.html">Zadaća 1</a></li>
     <li> <a href="zadace/zadaca2.html">Zadaća 2</a></li>
     <li> <a href="zadace/zadaca3.html">Zadaća 3</a></li>
-    <li> <a href="zadace/zadaca4.html">Zadaća 3</a></li>
+    <li> <a href="../svjwp_Sudar_Rino/zadace/zadaca4.html">Zadaća 3</a></li>
     <li>Zadaća 5</li>
     <li>Zadaća 6</li>
 </body>
