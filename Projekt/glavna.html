@@ -10,48 +10,45 @@
             margin: 0;
         }
         .footer {
-            height: 200px;
+            height: 300px;
             width: full;
             background-color: #EBE5C2;
             display: grid;
             grid-template-columns: auto auto auto auto;
             align-items: center;
             justify-content: space-evenly;
-            border-bottom: 2px solid #B9B28A;
+            border-bottom: 4px solid #B9B28A;
         }
         .footer1 {
             color: #504B38;
             font-size: 40px;
-            border-bottom: 1px solid #B9B28A;
         }
         .footer2 {
             color: #504B38;
             font-size: 40px;
-            border-bottom: 1px solid #B9B28A;
         }
         .footer3 {
             color: #504B38;
             font-size: 40px;
-            border-bottom: 1px solid #B9B28A;
         }
         .footer4 {
             color: #504B38;
             font-size: 40px;
-            border-bottom: 1px solid #B9B28A;
         }
         .container1 {
             width: full;
             height: 300px;
             background-color: #F8F3D9;
             position: relative;
-            border-bottom: 2px solid #B9B28A;
+            margin: 100px;
+            border: 4px solid #B9B28A;
         }
         .slika1 {
             position: absolute;
-            margin-left:600px;
+            margin-left:1050px;
             margin-top: -260px;
         }
-        .naslov1 {
+        #bio {
             font-size: 40px;
             color: #504B38;
         }
@@ -61,13 +58,14 @@
         }
         .container2 {
             width: full;
-            height: 320px;
+            height: 300px;
             background-color: #F8F3D9;
             position: relative;
-             border-bottom: 2px solid #B9B28A;
+             margin: 100px;
+             border: 4px solid #B9B28A;
             
         }
-        .naslov2 {
+        #hobi {
             font-size: 40px;
             color: #504B38;
         }
@@ -77,21 +75,68 @@
         }
         .slika2 {
              position: absolute;
-            margin-left:600px;
-            margin-top: -260px;
+            margin-left:1050px;
+            margin-top: -200px;
         }
         .container3 {
             width: full;
             height: 300px;
             background-color: #F8F3D9;
+            margin: 100px;
+            border: 4px solid #B9B28A;
             
+        }
+        #skola {
+            font-size: 40px;
+            color: #504B38;
+        }
+        .text3 {
+            font-size: 24px;
+            color: #504B38;
+        }
+        .slika3 {
+            position: absolute;
+            margin-left:1050px;
+            margin-top: -200px;
         }
         .container4 {
             width: full;
-            height: 300px;
+            height: 200px;
             background-color: #F8F3D9;
+            border-bottom: 2px solid #B9B28A;
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            border-top: solid 4px #B9B28A;
+            margin-top: 400px;
             
         }
+        #kontakt {
+            font-size: 40px;
+            color: #F8F3D9;
+            margin-left: 150px;
+        }
+        .ig {
+            font-size: 28px;
+            color: #504B38;
+            margin: 40px;
+        }
+        .gmail {
+            font-size: 28px;
+            color: #504B38;
+            margin: 40px;
+        }
+        .telefon {
+            font-size: 28px;
+            color: #504B38;
+            margin: 40px;
+        }
+        a {
+            text-decoration-color: #504B38;
+            text-decoration-thickness: 2px;
+            color: #504B38;
+        }
+        
         
         
         
@@ -100,28 +145,37 @@
 </head>
 <body>
     <div class="footer">
-        <div class="footer1" > Bio</div>
-        <div class="footer2"> Hobiji</div>
-        <div class="footer3"> Škola</div>
-        <div class="footer4"> Kontakt</div>
+        <a href="#bio"><div class="footer1" > Bio</div></a>
+        <a href="#hobi"><div class="footer2"> Hobiji</div></a>
+        <a href="#skola"><div class="footer3"> Škola</div></a>
+        <a href="#kontakt"><div class="footer4"> Kontakt</div></a>
     </div>
     <div class="container1">
-        <div class="naslov1"> Bio</div>
+        <div id="bio"> Bio</div>
         <p class="text1">Ime: Rino Sudar <br> Datum rođenja: 6.9.1969. <br>Mjesto rođenja: Rijeka, Hrvatska <br>Prebivalište: Radovanje, Hrvatska <br>Školovanje: Osnovna škola Stjepan Ilijašević i <br>   Tehnička škola Slavonski Brod  <br>Hobi: nogomet
         </p>
-        <div class="slika1"><img src="../Projekt/johnpork.png" alt="profilna" width="250px" height="250px" ></div>
+        <div class="slika1"><img src="../Projekt/johnpork.png" alt="profilna" width="200px" height="200px" ></div>
     </div>
     <div class="container2">
-        <div class="naslov2"> Hobiji</div>
-        <p class="text2">U slobodno vrijeme treniram nogomet za NK Oriolik Oriovac, klub kojem sam izuzetno posvećen. <br>Treninzi su mi važan dio dana jer volim timski duh i izazove koje nogomet donosi. <br>Osim nogometa, uživam provoditi vrijeme s prijateljima, bilo da se družimo vani ili kod nekoga doma. <br>Druženja mi pomažu da se opustim i napunim energiju nakon napornih treninga. <br>Kombinacija sporta i prijateljstva čini moj život ispunjenim i zabavnim.</p>
-        <div class="slika2" > <img src="" alt="hobiji"></div>
+        <div id="hobi"> Hobiji</div>
+        <p class="text2">U slobodno vrijeme treniram nogomet za <a href="https://hr.wikipedia.org/wiki/NK_Oriolik_Oriovac">NK Oriolik Oriovac</a>, klub kojem sam izuzetno posvećen. <br>Treninzi su mi važan dio dana jer volim timski duh i izazove koje nogomet donosi. <br>Osim nogometa, uživam provoditi vrijeme s prijateljima, bilo da se družimo vani ili kod nekoga doma. <br>Druženja mi pomažu da se opustim i napunim energiju nakon napornih treninga. <br>Kombinacija sporta i prijateljstva čini moj život ispunjenim i zabavnim.</p>
+        <div class="slika2" > <img src="../Projekt/oriolik.jpg" alt="moj klub" width="200px" height="200px"></div>
 
     </div>
     <div class="container3">
+        <div id="skola"> Škola</div>
+        <p class="text3">Učenik sam 3.b razreda <a href="https://tssb.hr/">Tehničke škole Slavonski Brod</a>. <br>Pohađam smjer tehničar za računalstvo jer me zanimaju računala, programiranje i tehnologija. <br>U školi učimo o računalnim mrežama, operacijskim sustavima, programiranju i elektronici. <br> Imamo praktičnie vježbe koje mi pomažu da bolje razumijem kako stvari funkcioniraju u stvarnom svijetu. <br> Jako sam zadovoljan svojom školom jer mi pruža znanje i vještine koje će mi trebati u budućem zanimanju.</p>
+        <div class="slika3"> <img src="../Projekt/tehnicka.jpg" alt="moja škola" width="200px" height="200px"></div>
 
     </div>
     <div class="container4">
-
+        <div id="kontakt">Kontakt</div>
+        <div class="igslika"> <br><br><a href="https://instagram.com/rino.sudar/" target="_blank"><img src="../Projekt/instagram.jpg" alt="instagram" width="60px"></a></div>
+        <div class="ig"><br><br>rino.sudar </div>
+        <div class="gmailslika"> <br><br><img src="../Projekt/gmail.png" alt="gmail" width="60px"></div>
+        <div class="gmail"><br><br> rsudar.178@gmail.com</div>
+        <div class="telefonslika"><br><br> <img src="../Projekt/telefon.png" alt="broj telefona" width="60"></div>
+        <div class="telefon"><br><br> +385 91 600 2811</div>
     </div>
 
 </body>
