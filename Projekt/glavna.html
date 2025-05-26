@@ -6,136 +6,135 @@
     <title>Moja osobna web stranica</title>
     <style>
         body {
-            background-color: #F8F3D9;
-            margin: 0;
-        }
-        .footer {
-            height: 300px;
-            width: full;
-            background-color: #EBE5C2;
-            display: grid;
-            grid-template-columns: auto auto auto auto;
-            align-items: center;
-            justify-content: space-evenly;
-            border-bottom: 4px solid #B9B28A;
-        }
-        .footer1 {
-            color: #504B38;
-            font-size: 40px;
-        }
-        .footer2 {
-            color: #504B38;
-            font-size: 40px;
-        }
-        .footer3 {
-            color: #504B38;
-            font-size: 40px;
-        }
-        .footer4 {
-            color: #504B38;
-            font-size: 40px;
-        }
-        .container1 {
-            width: full;
-            height: 300px;
-            background-color: #F8F3D9;
-            position: relative;
-            margin: 100px;
-            border: 4px solid #B9B28A;
-        }
-        .slika1 {
-            position: absolute;
-            margin-left:1050px;
-            margin-top: -260px;
-        }
-        #bio {
-            font-size: 40px;
-            color: #504B38;
-        }
-        .text1 {
-            font-size: 24px;
-            color: #504B38;
-        }
-        .container2 {
-            width: full;
-            height: 300px;
-            background-color: #F8F3D9;
-            position: relative;
-             margin: 100px;
-             border: 4px solid #B9B28A;
-            
-        }
-        #hobi {
-            font-size: 40px;
-            color: #504B38;
-        }
-        .text2 {
-            font-size: 24px;
-            color: #504B38;
-        }
-        .slika2 {
-             position: absolute;
-            margin-left:1050px;
-            margin-top: -200px;
-        }
-        .container3 {
-            width: full;
-            height: 300px;
-            background-color: #F8F3D9;
-            margin: 100px;
-            border: 4px solid #B9B28A;
-            
-        }
-        #skola {
-            font-size: 40px;
-            color: #504B38;
-        }
-        .text3 {
-            font-size: 24px;
-            color: #504B38;
-        }
-        .slika3 {
-            position: absolute;
-            margin-left:1050px;
-            margin-top: -200px;
-        }
-        .container4 {
-            width: full;
-            height: 200px;
-            background-color: #F8F3D9;
-            border-bottom: 2px solid #B9B28A;
-            display: flex;
-            align-items: baseline;
-            flex-wrap: wrap;
-            border-top: solid 4px #B9B28A;
-            margin-top: 400px;
-            
-        }
-        #kontakt {
-            font-size: 40px;
-            color: #F8F3D9;
-            margin-left: 150px;
-        }
-        .ig {
-            font-size: 28px;
-            color: #504B38;
-            margin: 40px;
-        }
-        .gmail {
-            font-size: 28px;
-            color: #504B38;
-            margin: 40px;
-        }
-        .telefon {
-            font-size: 28px;
-            color: #504B38;
-            margin: 40px;
-        }
-        a {
-            text-decoration-color: #504B38;
-            text-decoration-thickness: 2px;
-            color: #504B38;
-        }
+    background-color: #F8F3D9;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.footer {
+    background-color: #EBE5C2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid #B9B28A;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+    color: #8C8360;
+}
+.footer1, .footer2, .footer3, .footer4 {
+    color: #504B38;
+    font-size: 32px;
+}
+
+
+.container1, .container2, .container3 {
+    background-color: #F8F3D9;
+    border: 4px solid #B9B28A;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container1 img, .container2 img, .container3 img {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.container1 p, .container2 p, .container3 p {
+    flex: 1 1 400px;
+    font-size: 20px;
+    color: #504B38;
+}
+
+#bio, #hobi, #skola {
+    font-size: 36px;
+    color: #504B38;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.container4 {
+    background-color: #F8F3D9;
+    border-top: 4px solid #B9B28A;
+    border-bottom: 2px solid #B9B28A;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#kontakt {
+    font-size: 36px;
+    color: #504B38;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ig, .gmail, .telefon {
+    font-size: 20px;
+    color: #504B38;
+    text-align: center;
+}
+
+
+.igslika img, .gmailslika img, .telefonslika img {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+a {
+    color: #504B38;
+    text-decoration-thickness: 2px;
+}
+
+
+@media (max-width: 768px) {
+    .footer1, .footer2, .footer3, .footer4 {
+        font-size: 24px;
+    }
+    .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+    #bio, #hobi, #skola, #kontakt {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .container1, .container2, .container3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container1 p, .container2 p, .container3 p {
+        font-size: 18px;
+    }
+
+    .ig, .gmail, .telefon {
+        font-size: 16px;
+    }
+}
+
+
         
         
         
